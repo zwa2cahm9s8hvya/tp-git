@@ -14,3 +14,4 @@ test("multiply returns the product of two numbers", () => {
 test("divide throws when dividing by zero", () => {
   assert.throws(() => divide(1, 0), /Division by zero/);
 });
+
